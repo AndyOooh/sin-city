@@ -114,10 +114,10 @@ You must be running **node v. 16** or higher.
 
 If you plan to use the hardhat environment you must rename the `.env.example` to `.env` and add your own variables. This is to prevent the environment variables from being committed to the repository.
 
-To start teh development server:
+To start teh development server, in *dApp* run:
 
 ```sh
-yarn dev
+yarn start
 ```
 
 Once you have the development servers running, you can access the client at [localhost:3000](http://localhost:3000).
