@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='app '>
       <Header />
-      <main className='main'>
+      <main className='main py-4'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/dex' element={<Dex />} />

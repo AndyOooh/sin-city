@@ -25,7 +25,7 @@ export const Header = () => {
           </label>
           <ul
             tabIndex={0}
-            className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'>
+            className='z menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'>
             <li>
               <NavLink to={'/dex'}>Dex</NavLink>
             </li>

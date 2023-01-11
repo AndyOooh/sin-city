@@ -142,8 +142,8 @@ export const Roulette = () => {
 
   return (
     <>
-      <div className='card bg-base-100 shadow-xl mb-20'>
-        <div className='card-body'>
+      <div className='card bg-base-100 shadow-xl h-full '>
+        <div className='card-body py-4'>
           <div className='w-full flex items-center justify-around gap-6'>
             <h2 className='card-title whitespace-nowrap'>Unredeemed winnings: </h2>
             <div className='flex items-center gap-2'>
@@ -181,7 +181,7 @@ export const Roulette = () => {
           <></>
         )}
 
-        <div className='card flex flex-row'>
+        <div className='card flex flex-col md:flex-row md:max-h-[500px] mx-4'>
           <div className={'stats stats-vertical shadow rounded-2xl border-4 border-primary'}>
             <div className='stat'>
               <div className={'stat-title text-primary'}>Winning Number</div>
